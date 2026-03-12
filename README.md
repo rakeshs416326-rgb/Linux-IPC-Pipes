@@ -25,6 +25,7 @@ Testing the C Program for the desired output.
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 nano pipe.c
+
 ```
  #include <stdio.h>
  #include <unistd.h>
@@ -33,7 +34,7 @@ nano pipe.c
 int main() {
     int fd[2];
     pid_t pid;
-    char message[] = "Hello";
+    char message[] = "Hello rakesh";
     char buffer[100];
     pipe(fd);  // Create pipe
     pid = fork();
@@ -55,6 +56,7 @@ int main() {
     }
     return 0;
 }
+
 ```
 gcc pipe.c -o pipe
 
@@ -68,6 +70,7 @@ gcc pipe.c -o pipe
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 
 nano named_pipe.c
+
 ```
  #include <stdio.h>
  #include <unistd.h>
@@ -80,7 +83,7 @@ nano named_pipe.c
 int main() {
     int fd;
     char *fifo = "myfifo";
-    char message[] = "Hello Thaarakeshwar";
+    char message[] = "Hello Rakesh";
     char buffer[100];
     pid_t pid;
     
@@ -106,8 +109,10 @@ int main() {
         unlink(fifo); // Remove named pipe
     }
     
-    return 0;
+  
+  return 0;
 }
+
 ```
 gcc named_pipe.c -o named_pipe
 
