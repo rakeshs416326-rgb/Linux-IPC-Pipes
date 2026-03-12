@@ -65,8 +65,8 @@ gcc pipe.c -o pipe
 
 
 ## OUTPUT
-![Alt text](../pipe.png)
 
+![Alt text](pipe.png)
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 
 nano named_pipe.c
@@ -122,7 +122,7 @@ gcc named_pipe.c -o named_pipe
 
 
 ## OUTPUT
-![Alt text](../named.png)
+![Alt text](named.png)
 
 # RESULT:
 The program is executed successfully.
