@@ -122,7 +122,7 @@ gcc named_pipe.c -o named_pipe
 
 ## OUTPUT
 
-![Alt text](../named.png)
+![Alt text](named.png)
 
 # RESULT:
 The program is executed successfully.
