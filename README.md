@@ -66,7 +66,7 @@ gcc pipe.c -o pipe
 
 ## OUTPUT
 
-![Alt text](../pipe.png)
+![Alt text](<Screenshot at 2026-03-12 06-52-28.png>)
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 
